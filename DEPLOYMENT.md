@@ -18,8 +18,8 @@
 
 | Mục | Nội dung |
 |-----|----------|
-| Public URL | https://day12-chat-production-ce55.up.railway.app |
-| Platform | Railway |
+| Public URL | https://day12-chat-xx9e.onrender.com |
+| Platform | Render |
 | Ngày deploy | 10/08/2026 |
 
 ## Biến Môi Trường Đã Set Trên Cloud
@@ -30,7 +30,7 @@ Ghi tên biến và **nguồn giá trị**, không ghi giá trị:
 |------|--------|---------|
 | `PORT` | ✅ | platform tự gán |
 | `API_TOKEN` | ✅ | đặt trong dashboard, không nằm trong repo |
-| `REDIS_URL` | ✅ | Redis add-on của Railway (tự sinh khi `railway add --database redis`) |
+| `REDIS_URL` | ✅ | Redis Key Value add-on của Render |
 | `BUCKET_CAPACITY` | ✅ | 10 |
 | `REFILL_PER_MINUTE` | ✅ | 10 |
 | `DAILY_BUDGET_USD` | ✅ | 1.0 |
